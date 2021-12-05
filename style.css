@@ -93,3 +93,14 @@ h2 {
 
 
 /* PATICKA */
+
+.paticka {
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+    padding: 10px 0 10px 0;
+    background-image: linear-gradient(rgb(192, 192, 192), rgb(238, 238, 238));
+}
+
+.paticka a {
+    color: rgb(112, 112, 112);
+}
