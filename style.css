@@ -45,8 +45,25 @@ h1 {
 }
 /* MENU */
 
+.menu {
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Raleway', serif;
+    padding: 30px;
+}
 
+a {
+    text-decoration: none;
+    color: silver;
+    
+}
 
+li {
+    border-bottom: solid rgb(235, 235, 235) 1px;
+    padding: 5px;
+    font-size: 14px;
+}
 
 /* OBSAH */
 
