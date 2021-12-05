@@ -53,10 +53,9 @@ h1 {
     padding: 30px;
 }
 
-a {
+ul a {
     text-decoration: none;
     color: silver;
-    
 }
 
 li {
@@ -67,9 +66,27 @@ li {
 
 /* OBSAH */
 
+p {
+    padding: 0 20px 0 20px;
+}
 
+img {
+    max-width: 100%;
+}
 
+.popisek {
+    font-family: 'Raleway', serif;
+    font-size: 12px;
+    text-align: center;
+}
 
+.popisek a {
+    color: black;
+}
+
+h2 {
+    padding: 20px;
+}
 /* FOTOGALERIE */
 
 
