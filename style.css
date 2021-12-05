@@ -71,7 +71,7 @@ p {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .popisek {
@@ -86,8 +86,15 @@ img {
 
 h2 {
     padding: 20px;
+    font-family: 'Raleway', serif;
+    font-size: 30px;
 }
 /* FOTOGALERIE */
+
+figure {
+    margin: 0 0 0 0;
+    
+}
 
 
 
