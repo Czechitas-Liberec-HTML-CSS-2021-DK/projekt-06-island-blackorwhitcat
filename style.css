@@ -1,0 +1,135 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+*, ::after, ::before { box-sizing: border-box; }
+
+/*
+ BARVY
+ pozadi           #f5f5f5
+ dekorace nadpisů #629edb
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+
+/* HLAVICKA */
+
+.titulek {
+    font-family: 'Raleway', serif;
+}
+
+.hlavicka {
+    background-image: url('images/island-hlavicka.jpg');
+    background-size: cover;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.autor {
+    font-size: 14px;
+    font-style: italic;
+    border-top: solid white 1px;
+    padding-top: 10px;
+    
+}
+/* MENU */
+
+.menu {
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Raleway', serif;
+    padding: 30px;
+}
+
+ul a {
+    text-decoration: none;
+    color: silver;
+}
+
+li {
+    border-bottom: solid rgb(235, 235, 235) 1px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+@media (min-width: 480px) {
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+}
+
+/* OBSAH */
+
+p {
+    padding: 0 20px 0 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.popisek {
+    font-family: 'Raleway', serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.popisek a {
+    color: black;
+}
+
+h2 {
+    padding: 20px;
+    font-family: 'Raleway', serif;
+    font-size: 30px;
+}
+/* FOTOGALERIE */
+
+figure {
+    margin: 0 0 0 0;
+}
+
+@media (min-width: 480px) {
+    .galerie {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .foto {
+        flex: 1 50%;
+    }
+    .popisek {
+        display: none;
+        
+    }
+    
+}
+
+
+
+/* PATICKA */
+
+.paticka {
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+    padding: 10px 0 10px 0;
+    background-image: linear-gradient(rgb(192, 192, 192), rgb(238, 238, 238));
+}
+
+.paticka a {
+    color: rgb(112, 112, 112);
+}
